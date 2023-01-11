@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA-API</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./reset.css">
+<body>
+    <script src="./index.js"></script>
+    <div id="app">
+        <header>
+            <img src="" alt="">
+        </header>
+        <main id="cards">
+            <div class="card">
+                <button onclick="dados()"><img src="assets/logo-pequena.svg" alt=""></button>
+                <button onclick="imagem()"><img src="assets/logo-img.svg" alt=""></button>
+                <input type="date" id="date">
+                <button onclick="imprimeData()"><img src="assets/calendario-img.svg" alt=""></button>
+            </div>
+        </main>
+        <footer></footer>
+        <div id="modal-sobre" class="modal-perguntar">
+            <button onclick="fecharModalSobre()" class="button-one">X</button>
+            <p id="descritivo"></p>
+        </div>
+    </div>
+</body>
+</html>
